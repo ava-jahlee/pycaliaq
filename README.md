@@ -15,4 +15,4 @@
 
 ## Credits:
  The code for pycaliaq was based on code originally written by <u>Jung Ah, Lee</u> (@BEBSE of Seoul National University of Science and Technology).  
- For any inquiries, please contact **<u>jahlee.ava@gmail.com.</u>**
+ For any inquiries, please contact **<u>ava.jahlee@gmail.com</u>**.
