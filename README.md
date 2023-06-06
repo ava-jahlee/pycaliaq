@@ -17,6 +17,6 @@ This suite of tools generate a classroom IAQ baseline, which includes standardiz
 
 ▶ The research project - Development of a Numerical Analysis-Based Comprehensive Diagnosis System for Air Environment in Existing School Buildings by Type (supported by the National Research Foundation of Korea: No. 2019M3E7A1113091) - was conducted by the Built Environment and Building Service Engineering (BEBSE) Lab of Seoul National University of Science and Technology.
 
-▶ Credits
+▶ Credits:
 The code for pycaliaq was based on code originally written by Jung Ah, Lee (@BEBSE of Seoul National University of Science and Technology).
 For any inquiries, please contact jahlee.ava@gmail.com.
