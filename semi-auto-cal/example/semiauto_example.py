@@ -1,5 +1,5 @@
-import _cls_func as cf
-from _cls_func import ModelParser
+import cls_func as cf
+from cls_func import ModelParser
 
 # install r package "partykit" for ctree model
 cf.rpy2_install_rpackges("partykit")
