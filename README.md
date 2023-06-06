@@ -1,26 +1,22 @@
 # pycaliaq
-An IAQ simulation baseline model calibration toolkit
-pycaliaq: IAQ Simulation Calibration Toolkit
+This suite of tools generate a classroom IAQ baseline, which includes standardized diagnostic scenarios based on common retrofitting practices and measurement protocols of classroom IAQs; the diagnostic scenarios intend to quantify the dilution and filtration capabilities of classrooms through deposition, infiltration, and natural/mechanical ventilations when a high concentration is observed; the first principle model is developed to normalize the measurement, which is fitted against the measurement by adjusting its parameter values. In order to save time and effort for practitioners, automated and semi-automated calibrations that run in a short time are also developed.
 
-pycaliaq is an open-source Python toolkit for IAQ simulation calibration, offering automated and semi-automated calibration methods. It helps practitioners determine input values for environmental variables in the simulation baseline model.
-Automatic Calibration:
- *cls_func.py: Module with functions and classes for automated calibration using Kriging and L-BFGS-B algorithm.
- *auto_example.py: Script demonstrating automated calibration using example data (caliaq/_data/example_data1000.csv).
-Semi-Automatic Calibration:
- *cls_func.py: Module with functions and classes for semi-automated calibration with Conditional Inference Tree model.
- *auto_example.py: Script demonstrating semi-automated calibration using example data (caliaq/_data/example_data1000.csv).
- 
 ▶ Project Structure:
- _data: Example data file (example_data1000.csv)
- _documentation: Documentation directory
- auto-cal: Automated calibration modules and scripts
- semi-auto-cal: Semi-automated calibration modules and scripts
+ / _data: Example data file (example_data1000.csv)
+ / _documentation: Documentation directory
+ / auto-cal: Automated calibration modules and scripts
+   *cls_func.py: Module with functions and classes for automated calibration using Kriging and L-BFGS-B algorithm.
+   *auto_example.py: Script demonstrating automated calibration using example data (pycaliaq/_data/example_data1000.csv).
+ / semi-auto-cal: Semi-automated calibration modules and scripts
+   *cls_func.py: Module with functions and classes for semi-automated calibration with Conditional Inference Tree model.
+   *auto_example.py: Script demonstrating semi-automated calibration using example data (pycaliaq/_data/example_data1000.csv).
 
-▶ This open-source project is developed based on the automated and semi-automated calibration methods proposed in the following research paper:
-Sung, H. J., Kim, S. H., & Choi, S. Y. (2022). "Preparation of an Indoor Air Quality Baseline Model for School Retrofitting Using Automated and Semi-Automated Calibrations: The Case Study in South Korea." Buildings, 12(9), 1449.
+▶ This open-source project is developed based on the automated and semi-automated calibration methods proposed in the following research papers:
+1. Sung HJ, Kim SH, Choi SY. Preparation of an Indoor Air Quality Baseline Model for School Retrofitting Using Automated and Semi-Automated Calibrations: The Case Study in South Korea. Buildings. 2022; 12(9):1449.
+2. Sung HJ, Kim SH, Kim H. Analysis of Building Retrofit, Ventilation, and Filtration Measures for Indoor Air Quality in a Real School Context: A Case Study in Korea. Buildings. 2023; 13(4):1033.
 
-▶ The research project, titled "Development of a Numerical Analysis-Based Comprehensive Diagnosis System for Air Environment in Existing School Buildings by Type," was conducted at the Built Environment and Building Service Engineering (BEBSE) Lab, Seoul National University of Science and Technology.
+▶ The research project - Development of a Numerical Analysis-Based Comprehensive Diagnosis System for Air Environment in Existing School Buildings by Type (supported by the National Research Foundation of Korea: No. 2019M3E7A1113091) - was conducted by the Built Environment and Building Service Engineering (BEBSE) Lab of Seoul National University of Science and Technology.
 
-▶ The developer of this open-source project:
- Jung Ah, Lee (BEBSE, Seoul National University of Science and Technology)
- For any inquiries, please contact jahlee.ava@gmail.com.
+▶ Credits
+The code for pycaliaq was based on code originally written by Jung Ah, Lee (@BEBSE of Seoul National University of Science and Technology).
+For any inquiries, please contact jahlee.ava@gmail.com.
