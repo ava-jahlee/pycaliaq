@@ -4,8 +4,7 @@
 ## Project Structure:
  **/ _data**: Example data file (example_data1000.csv)  
  **/ _documentation**: Documentation directory  
- **/ auto-cal**: Automated calibration modules and scripts<br> - *cls_func.py*: Module with functions and classes for automated calibration using Kriging and L-BFGS-B algorithm<br> - *auto_example.py*: Script demonstrating automated calibration using example data (pycaliaq/_data/example_data1000.csv)<br>  
- **/ semi-auto-cal**: Semi-automated calibration modules and scripts<br> - *cls_func.py*: Module with functions and classes for semi-automated calibration with Conditional Inference Tree model<br> - *auto_example.py*: Script demonstrating semi-automated calibration using example data (pycaliaq/_data/example_data1000.csv)<br>
+ **/ auto-cal**: Automated calibration modules and scripts<br>  - *cls_func.py*: Module with functions and classes for automated calibration using Kriging and L-BFGS-B algorithm<br>  - *auto_example.py*: Script demonstrating automated calibration using example data (pycaliaq/_data/example_data1000.csv)<br> **/ semi-auto-cal**: Semi-automated calibration modules and scripts<br>  - *cls_func.py*: Module with functions and classes for semi-automated calibration with Conditional Inference Tree model<br>  - *auto_example.py*: Script demonstrating semi-automated calibration using example data (pycaliaq/_data/example_data1000.csv)<br>
 
 ## Related Research:
 ▶ This open-source project is developed based on the automated and semi-automated calibration methods proposed in the following research papers:
